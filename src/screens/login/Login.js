@@ -52,13 +52,14 @@ class Login extends Component {
     this.setState({ password: e.target.value });
   };
 
+  //Validate login and set access token
   loginClickHandler = () => {
     let username = "admin";
     let password = "admin";
     let access_token =
-      "IGQVJWaENNZAFNvbldnNTlJRmxESnpyYUg4MW91ZAGNObHBXalpZAZA0ZAVSEIwbzhPN0FISnpXeU5JY09QSHA4NGZAxSWdlMDQ4d3hhMzZA2QTVsTkNmVWstOHgxMFpjTC1fMl9udnRENVhaa1otM0ZATc09BVHRycHpqN2JuWl9n";
+      "IGQVJYMTV0NDA1aTNIZAWVDVEpYelJBMTVFQXVJZATFxMm5BbDlKRWRIRi12MHdmN1BFMmczSFpQQ3dUN3o4ZAGdkOTV5bWZALVzFQS056MTFJSGd6ZAS1OcXR1VWljczE3MEpZAeFl0WTB1NFRhbHhwSm5qTHNqVWZALOU5RX3lr";
     let user_id = "17841439135921265";
-
+    //Check username and password
     if (this.state.username === "" || this.state.password === "") {
       this.state.username === ""
         ? this.setState({ usernameRequired: "dispBlock" })
@@ -77,6 +78,7 @@ class Login extends Component {
         passwordRequired: "dispNone",
       });
     } else {
+      //on success set access token
       this.setState({ isLogin: true });
       sessionStorage.setItem("access_token", access_token);
       sessionStorage.setItem("user_id", user_id);
