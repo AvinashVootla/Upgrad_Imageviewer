@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import 'fontsource-roboto';
-import Controller from './screens/Controller';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import "fontsource-roboto";
+import Controller from "./screens/Controller";
 
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  
-    <div><Controller></Controller></div>
-  ,
-  document.getElementById('root')
+  <div>
+    <Controller></Controller>
+  </div>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
