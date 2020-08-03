@@ -62,7 +62,7 @@ class Login extends Component {
 
         let username = "admin"
         let password = "admin"
-        let access_token = 'IGQVJXaXVka2J6Yk5Oc1lBdEZABTzlIbURncVVTN0MyQ0M5d3ZAGaWM3YXpzWWItTlYzZAXg3cUlialI1aXl4RDhoajYwa1labjlrX2FUbUhRUnU4T0VFSTJSSkN0eE1Ybm1DZA3NzRUZAtekg2ckVnOTFKZAlZArblo4UE5MS1Vv'
+        let access_token = 'IGQVJWaENNZAFNvbldnNTlJRmxESnpyYUg4MW91ZAGNObHBXalpZAZA0ZAVSEIwbzhPN0FISnpXeU5JY09QSHA4NGZAxSWdlMDQ4d3hhMzZA2QTVsTkNmVWstOHgxMFpjTC1fMl9udnRENVhaa1otM0ZATc09BVHRycHpqN2JuWl9n'
         let user_id = '17841439135921265'
 
         if (this.state.username === '' || this.state.password === '') {
