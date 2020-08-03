@@ -84,11 +84,11 @@ class Home extends Component {
       originalimageData: {},
     };
   }
-
+  //Random number generator for likes
   randomLikeGenerator() {
     return Math.floor(Math.random() * 10) + 1;
   }
-
+  //Called Immediately after component mounted
   componentDidMount() {
     let scope = this;
     if (this.state.isLogin) {
