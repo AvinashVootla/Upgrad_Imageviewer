@@ -1,12 +1,10 @@
-.dispNone{
-    display: none;
+.dispNone {
+  display: none;
 }
 
-.dispBlock{
-    display: block;
+.dispBlock {
+  display: block;
 }
-
-.red{
-    color: red;
+.red {
+  color: red;
 }
-
